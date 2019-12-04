@@ -1,0 +1,5 @@
+@import "./mixins";
+
+.plast-logo-icon {
+  @include icon(url("../icons/plast_logo_icon.svg"), 40px, 40px);
+}
